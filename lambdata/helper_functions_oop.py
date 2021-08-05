@@ -27,10 +27,11 @@ class HelperFunctions:
 
 
 
-'''Test'''
+'''Test for instantiating HelperFunctions class and calling null_counter and randomizer as methods on new class instances'''
 dataframe1 = HelperFunctions(df)
 print(dataframe1.null_counter(df))
 dataframe2 = HelperFunctions(df1)
 print(dataframe2.null_counter(df1))
 print(dataframe2.randomize_dataframe(df1))
-'''Test'''
+''''''
+
