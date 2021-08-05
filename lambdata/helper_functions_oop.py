@@ -1,12 +1,13 @@
 import numpy as np
 import pandas as pd
 
-
+'''Sample DataFrames'''
 df = pd.DataFrame(np.array([[1, 2, 3], [np.nan,4, 6], [8, np.nan,9]]),
                    columns=['a', 'b', 'c'])
 
 df1 = pd.DataFrame(np.array([[np.nan, np.nan, np.nan], [np.nan,4, 6], [8, np.nan,9]]),
                    columns=['a', 'b', 'c'])
+''''''
 
 
 class HelperFunctions:
